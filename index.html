@@ -3,29 +3,46 @@
     <head>
         <title>Keito Tada</title>
         <meta charset="utf-8">
+        <style>
+            a {
+                color: #ff0000;
+            }
+            #first-link {
+                background-color: #ffa600;
+            }
+            #exec-bio {
+                background-color: #888888;
+            }
+            .bio-box {
+                border: 1px solid #000000;
+            }
+            .bio-box a {
+                color: #00ff00;
+            }
+        </style>
     </head>
     <body>
         <h1>I'm an h1</h1>
         <ul>
-            <li>
-                <a href="https://example.com" style="color: red;">Link</a>
+            <li id="first-link">
+                <a href="https://example.com">Link</a>
             </li>
             <li>
-                <a href="https://example.com" style="color: red;">Link</a>
+                <a href="https://example.com">Link</a>
             </li>
             <li>
-                <a href="https://example.com" style="color: red;">Link</a>
+                <a href="https://example.com">Link</a>
             </li>
         </ul>
         <h2>I'm an h2</h2>
-        <div style="border: 1px solid black;">
-            <a href="https://example.com" style="color: 00ff00">I'm a link</a>
+        <div id='exec-bio' class="bio-box">
+            <a href="https://example.com">I'm a link</a>
         </div>
-        <div style="border: 1px solid black;">
-            <a href="https://example.com" style="color: 00ff00">I'm a link</a>
+        <div class="bio-box">
+            <a href="https://example.com">I'm a link</a>
         </div>
-        <div style="border: 1px solid black;">
-            <a href="https://example.com" style="color: 00ff00">I'm a link</a>
+        <div class="bio-box">
+            <a href="https://example.com">I'm a link</a>
         </div>
     </body>
 </html>
