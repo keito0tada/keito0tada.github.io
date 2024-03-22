@@ -76,7 +76,7 @@ jobs:
       - name: Lint and Format
         run: |
           npm run lint
-          npm run format
+          npm prettier --write app
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       # - name: Static HTML export with Next.js
