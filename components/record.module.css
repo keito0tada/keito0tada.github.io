@@ -1,0 +1,8 @@
+.record {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+.date {
+  margin-right: 2em;
+}
