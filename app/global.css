@@ -1,14 +1,8 @@
-h1 {
-  color: #eb5463;
+body {
+  background-color: #cdd6c9;
+  color: #3d3d3d;
 }
 
-/* nav */
-.header-nav {
-  margin: 5vh 0.5vh 0 0;
-}
-.header-nav > li {
-  display: inline-block;
-}
-.nav-link {
-  text-decoration: none;
+body > .main-content {
+  padding-top: 6em;
 }
