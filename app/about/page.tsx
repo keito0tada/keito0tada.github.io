@@ -42,8 +42,8 @@ export default function Page() {
             </a>
             　配属
           </Record>
-          <Record date='2024/03'>東京科学大学　卒業</Record>
-          <Record date='2024/04'>東京科学大学大学院　入学</Record>
+          <Record date='2025/03'>東京科学大学　卒業</Record>
+          <Record date='2025/04'>東京科学大学大学院　入学</Record>
         </ul>
       </div>
     </div>
