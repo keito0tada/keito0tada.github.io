@@ -7,7 +7,8 @@ export default function Page() {
     <div className={styles.wrapper}>
       <div className={styles.name}>
         <h1>多田　佳杜</h1>
-        <p>東京工業大学　情報理工学院　情報工学系　所属</p>
+        <h3>東京科学大学大学院</h3>
+        <p>情報理工学院　情報工学系　情報工学コース　曹研究室</p>
       </div>
       <div className={styles.history}>
         <h2>経歴、実績</h2>
@@ -41,6 +42,8 @@ export default function Page() {
             </a>
             　配属
           </Record>
+          <Record date='2024/03'>東京科学大学　卒業</Record>
+          <Record date='2024/04'>東京科学大学大学院　入学</Record>
         </ul>
       </div>
     </div>
