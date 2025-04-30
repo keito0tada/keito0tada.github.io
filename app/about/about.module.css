@@ -4,21 +4,40 @@
   align-items: start;
   margin: 2em 1em 0 1em;
 }
+
 .name {
   background-color: #f2f2f2;
   border-radius: 5px;
+  border: 1px, solid, #c3cbbf;
   margin-right: 2em;
   padding: 1em;
   width: 32em;
-}
-.name > p {
-  font-size: 1.1em;
 }
 .history {
   flex-grow: 2;
   background-color: #f2f2f2;
   border-radius: 5px;
+  border: 1px, solid, #c3cbbf;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .name {
+    width: 100%;
+    margin-left: 2em;
+  }
+  .history {
+    width: 100%;
+  }
+}
+
+.name > p {
+  font-size: 1.1em;
+}
+
 .history > h2 {
   margin: 0.5em 0 0 1em;
 }
