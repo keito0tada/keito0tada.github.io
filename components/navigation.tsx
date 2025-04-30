@@ -38,9 +38,6 @@ export default function Navigation() {
       <NavItem currentPathName={pathName} name='works'>
         Works
       </NavItem>
-      <NavItem currentPathName={pathName} name='contact'>
-        Contact
-      </NavItem>
     </>
   );
 }
