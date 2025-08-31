@@ -44,6 +44,8 @@ export default function Page() {
           </Record>
           <Record date='2025/03'>東京科学大学　卒業</Record>
           <Record date='2025/04'>東京科学大学大学院　入学</Record>
+          <Record date='2025/08'>株式会社コロプラ　夏インターン</Record>
+          <Record date='2025/08'>LINEヤフー株式会社　夏インターン</Record>
         </ul>
       </div>
     </div>
